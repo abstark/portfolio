@@ -1,0 +1,65 @@
+canvas {
+	display: block;
+	vertical-align: bottom;
+}
+#particles-js {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	background-repeat: no-repeat;
+	background-position: 30% 50%;
+}
+.c {
+	top:40%;
+	left:40%;
+	position:absolute;
+	z-index: 9999;
+	font-family: 'Pangolin', cursive;
+	font-weight: bold;
+	color: white;
+}
+.parallax {
+	height: 100%;
+	background: transparent;
+}
+ul {
+	overflow: auto;
+}
+
+ul li {
+	list-style-type: none;
+	float: left;
+}
+
+ul li a i {
+	background: #205D7A;
+	color: #fff;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	font-size: 25px;
+	text-align: center;
+	margin-right: 10px;
+	padding-top: 15%;transition: all 0.2s ease-in-out;
+}
+
+.fa-facebook {
+	background:#3b5998
+} 
+
+.fa-github-alt {
+	background:black;
+}
+.fa-google-plus
+{
+	background: red;
+}
+ul li a i:hover {
+	opacity: .7;
+}
+#navbar
+{
+	position: fixed;
+	z-index: 100;
+}
